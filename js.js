@@ -1,4 +1,4 @@
-//scroll more design
+// scroll more design
 const text = document.querySelector('.scroll p');
 text.innerHTML = text.innerText.split("").map(
     (char, i) => `<span style="transform:rotate(${i * 13}deg)">${char}</span>`
@@ -41,6 +41,8 @@ document.addEventListener('mousemove', e => {
     document.addEventListener("mouseout", function(event) {
       cursor.classList.remove("active");
     });
+
+
 
 //hambuger
 let hamburger = document.querySelector(".hamburger");
