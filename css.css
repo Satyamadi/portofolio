@@ -135,7 +135,24 @@ header .headline {
   width: 100%;
   animation: rotation 10s linear infinite;
 }
-
+.btn-cv {
+  margin-top: 50px;
+  padding: 20px 20px;
+  border: 1px white solid;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-cv:hover {
+  border-radius: 80px;
+  background: white;
+  color: var(--dark1);
+  transform: translateY(-8px);
+}
 .scroll span {
   left: 50%;
   font-size: 1rem;
